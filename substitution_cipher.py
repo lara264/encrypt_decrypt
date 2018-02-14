@@ -36,8 +36,8 @@ print(encrypted_message)
 print(decrypt(encrypted_message))
 
 with open("substitution_sample_run.txt", "w") as f:
-    f.write(unencrypted_message)
-    f.write(encrypted_message)
-    f.write(decrypt(encrypted_message))
+    f.write(unencrypted_message + "\n")
+    f.write(encrypted_message + "\n")
+    f.write(decrypt(encrypted_message) + "\n")
 
 
